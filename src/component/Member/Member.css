@@ -1,0 +1,39 @@
+.member{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding:5px;
+    font-weight: bold;
+    font-size:15px;
+    border-radius: 5px;
+    margin-top:10px;
+    color:rgb(15, 16, 17);
+
+ 
+    
+}
+.member__container{
+ 
+    box-shadow: rgba(143, 139, 139, 0.35) 0px 5px 15px;
+    margin-bottom: 40px;
+    padding:50px;
+}
+.member__verify{
+    background-color:blue;
+    padding:5px;
+    font-weight: bold;
+    font-size:15px;
+    border-radius: 5px;
+    margin-top:10px;
+    color:aliceblue;
+    box-shadow:10px 10px 10px gray;
+}
+.member__NOTverify{
+    background-color:red;
+    padding:5px;
+    font-weight: bold;
+    font-size:15px;
+    border-radius: 5px;
+    margin-top:10px;
+    color:aliceblue;
+    box-shadow:10px 10px 10px gray;
+}
